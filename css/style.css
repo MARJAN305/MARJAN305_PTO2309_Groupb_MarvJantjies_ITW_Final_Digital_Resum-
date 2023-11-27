@@ -13,12 +13,14 @@
   @media only screen and (max-width: 425px) {
     .background {
         width: 112%;
+        margin: 0%;
     }
   }
 
   @media only screen and (min-width: 768px) {
     .background {
         width: 100%;
+        margin: 0%;
     }
   }
   
@@ -118,6 +120,7 @@
     width: 40%;
     margin: 5px;
     padding: 3px;
+    top: 50px;
   }
   @media screen and (max-width: 425px) {
     .aboutme {
@@ -137,8 +140,7 @@
         width: 90%;
         height: 40%;
         position: absolute;
-        top: 60%;
-        font-size: 60%;
+        font-size: 150%;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         margin: 10px;
         padding: 5px;
@@ -498,10 +500,10 @@ button {
     background-color: rgb(5, 48, 78);
   color: aliceblue;
   position: absolute;
-  left: 550px;
+ 
   width: 70px;
   height: 30px;
-  bottom: 60px;
+  
 }
 
 @media screen and (max-width: 425px) {
@@ -513,8 +515,8 @@ button {
 
 @media only screen and (min-width: 768px) {
     button {
-        left: 100%;
-        top: 68%;
+        left: 200px;
+        top: 380px;
     }
 }
 
@@ -543,25 +545,27 @@ button {
 
 .textarea1 {
     position: absolute;
-    left: 300px;
-    bottom: 60px;
+    
+    
 }
 @media only screen and (max-width: 425px) {
     .textarea1 {
         left: 10px;
-        top: 150%;
+        top: 10%;
     }
 }
  
 .grid-container {
     background-color: aqua;
     border: 5px solid black;
+    position: absolute;
+    top: auto;
 }
 
 @media only screen and (min-width: 768px) {
     .grid-container {
-      position: absolute;
-      top: 90%;
+      top: 35%;
+      
     }
 }
 
@@ -573,3 +577,25 @@ button {
 body {
     background-color: blanchedalmond;
 }
+
+#navbar {
+    background-color: rgb(211, 168, 252);
+    height: 50px;
+    top: 0%;
+    color: white;
+    text-align: center;
+    z-index: 1;
+    top: 0px;
+    font-size: 40px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    margin: 0 4vw;
+  }
+  
+  .nav-link:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
