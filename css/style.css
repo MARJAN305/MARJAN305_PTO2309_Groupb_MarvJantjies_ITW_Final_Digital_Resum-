@@ -10,7 +10,17 @@
     height: 500px;
   }
 
+  @media only screen and (max-width: 425px) {
+    .background {
+        width: 112%;
+    }
+  }
 
+  @media only screen and (min-width: 768px) {
+    .background {
+        width: 100%;
+    }
+  }
 
   img {
     width: 300px;
@@ -24,8 +34,21 @@
 
     @media only screen and (max-width: 425px) {
         img {
-            width: 40%;
-            height: 30%;
+            width: 30%;
+            height: 20%;
+            position: absolute;
+            top: 10%;
+            left: 35%;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        img {
+            width: 30%;
+            height: 20%;
+            position: absolute;
+            top: 10%;
+            left: 35%;
         }
     }
     
@@ -41,7 +64,26 @@
     
   }
 
+  @media only screen and (max-width: 425px) {
+    h1 {
+        position: absolute;
+        left: 32%;
+        top: 31%;
+        background-color: aquamarine;
+       margin-right: 120px;padding: 10px;
+        
+    }
+  }
 
+  @media only screen and (min-width: 768px) {
+    h1 {
+        position: absolute;
+        left: 32%;
+        top: 31%;
+        background-color: aquamarine;
+       margin-right: 120px;padding: 10px;
+    }
+  }
 
   .worktitle {
     background-color: aqua;
@@ -52,7 +94,22 @@
     padding: 3px;
   }
 
+  @media only screen and (max-width: 425px) {
+    .worktitle {
+        position: absolute;
+        left: 32%;
+        top: 46%;
+        
+    }
+  }
 
+  @media only screen and (min-width: 768px) {
+    .worktitle {
+        position: absolute;
+        left: 32%;
+        top: 41%;
+    }
+  }
 
   .aboutme {
     position: absolute;
@@ -61,8 +118,31 @@
     margin: 5px;
     padding: 3px;
   }
+  @media screen and (max-width: 425px) {
+    .aboutme {
+        width: 100%;
+        height: 40%;
+        position: absolute;
+        top: 60%;
+        font-size: 60%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 10px;
+        padding: 5px;
+    } 
+  }
 
- 
+  @media only screen and (min-width: 768px) {
+    .aboutme {
+        width: 90%;
+        height: 40%;
+        position: absolute;
+        top: 60%;
+        font-size: 60%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 10px;
+        padding: 5px;
+    }
+  }
 
   .work {
     background-color: aquamarine;
@@ -71,6 +151,23 @@
     font-size: 30px;
     margin: 5px;
     padding: 3px;
+  }
+
+  @media screen and (max-width: 425px) {
+    .work {
+        top: 80%;
+        left: 10%;
+        background-color: aquamarine;
+        right: auto;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .work {
+        top: 75%;
+        left: 10%;
+        background-color: aquamarine;
+        right: auto;
+    }
   }
 
   .edu {
@@ -83,6 +180,20 @@
     padding: 3px;
   }
 
+  @media screen and (max-width: 425px) {
+    .edu {
+        top: 105%;
+        left: 10%;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .edu {
+        top: 100%;
+        left: 10%;
+    }
+  }
+
   .lang {
     background-color: aquamarine;
    position: absolute;
@@ -91,6 +202,24 @@
    font-size: 30px;
    margin: 5px;
     padding: 3px;
+  }
+
+  @media screen and (max-width: 425px) {
+    .lang {
+        left: 10%;
+        top: 90%;
+        background-color: aquamarine;
+        right: auto;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .lang {
+        left: 10%;
+        top: 85%;
+        background-color: aquamarine;
+        right: auto;
+    }
   }
 
   .skills {
@@ -103,12 +232,47 @@
     padding: 3px;
   }
 
+  @media screen and (max-width: 425px) {
+    .skills {
+        left: 10%;
+        top: 132%;
+        background-color: aquamarine;
+        right: auto;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .skills {
+        left: 10%;
+        top: 132%;
+        background-color: aquamarine;
+        right: auto;
+    }
+  }
+
 footer {
     position: absolute;
     bottom: -300px;
     margin: 5px;
     padding: 3px;
 }
+
+@media screen and (max-width: 425px) {
+    footer {
+        top: 185%;
+        width: 80%;
+        left: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    footer {
+        top: 185%;
+        width: 80%;
+        left: 50px;
+    }
+}
+
 .shortcourses {
     background-color: aquamarine;
     position: absolute;
@@ -116,6 +280,24 @@ footer {
     margin: 5px;
     padding: 3px;
     font-size: 30px;
+}
+
+@media screen and (max-width: 425px) {
+    .shortcourses {
+        top: 120%;
+        left: 10%;
+        background-color: aquamarine;
+        
+        
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .shortcourses {
+        top: 120%;
+        left: 10%;
+        background-color: aquamarine;
+    }
 }
 
 .p1 {
@@ -127,6 +309,26 @@ footer {
     padding: 3px;
     color: brown;
 }
+
+@media screen and (max-width: 425px) {
+    .p1 {
+        top: 85%;
+        left: 10%;
+        font-size: 130%;
+        width: 50%;
+        
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .p1 {
+        top: 80%;
+        left: 10%;
+        font-size: 130%;
+        width: 50%;
+    }
+  }
+
 .li1 {
     position: absolute;
     left: 10px;
@@ -135,6 +337,22 @@ footer {
     margin: 5px;
     padding: 3px;
     color: brown;
+}
+
+@media screen and (max-width: 425px) {
+    .li1 {
+        top: 115%;
+        font-size: 130%;
+        left: 10%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .li1 {
+        top: 105%;
+        font-size: 130%;
+        left: 10%;
+    }
 }
     
 .li2 {
@@ -147,6 +365,22 @@ footer {
     color: brown
 }
 
+@media screen and (max-width: 425px) {
+    .li2 {
+        top: 110%;
+        left: 10%;
+        font-size: 130%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .li2 {
+        top: 109%;
+        left: 10%;
+        font-size: 130%;
+    }
+}
+
 .ul1 {
     position: absolute;
     bottom: 100px;
@@ -155,30 +389,22 @@ footer {
     font-size: 30px;
     color: brown;
 }
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
-    
-    
-    
-}
-.item1 {
-    background-color: aqua;
-    padding: 5px;
-    border: solid 1px black;
-}
-.item2 {
-    background-color: aqua;
-    padding: 5px;
-    border: solid 1px black;
+
+@media screen and (max-width: 425px) {
+    .ul1 {
+        top: 122%;
+        left: 10%;
+        font-size: 130%;
+        
+    }
 }
 
-.item3 {
-    background-color: aqua;
-    padding: 5px;
-    border: solid 1px black;
+@media only screen and (min-width: 768px) {
+    .ul1 {
+        top: 122%;
+        left: 7%;
+        font-size: 130%;
+    }
 }
 
 .eng {
@@ -191,6 +417,26 @@ footer {
     color: brown;
 }
 
+@media screen and (max-width: 425px) {
+    .eng {
+        left: 10%;
+        top: 95%;
+        width: 50%;
+        font-size: 130%;
+        color: brown;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .eng {
+        left: 10%;
+        top: 90%;
+        width: 50%;
+        font-size: 130%;
+        color: brown;
+    }
+}
+
 .afr {
     position: absolute;
    right: 624px;
@@ -200,6 +446,25 @@ footer {
     padding: 3px;
     color: brown;
 }
+
+@media screen and (max-width: 425px) {
+    .afr {
+        left: 10%;
+        top: 100%;
+        width: 50%;
+        font-size: 130%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .afr {
+        left: 10%;
+        top: 94%;
+        width: 50%;
+        font-size: 130%;
+    }
+}
+
 .ul2 {
     position: absolute;
     right: 310px;
@@ -210,19 +475,52 @@ footer {
     color: brown;
 }
 
+@media screen and (max-width: 425px) {
+    .ul2 {
+        font-size: 130%;
+        left: 15%;
+        top: 138%;
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .ul2 {
+        font-size: 130%;
+        left: 12%;
+        top: 138%;
+        width: 80%;
+    }
+}
+
 button {
     background-color: rgb(5, 48, 78);
   color: aliceblue;
   position: absolute;
   left: 550px;
-  width: 80px;
-  height: 40px;
+  width: 70px;
+  height: 30px;
   bottom: 60px;
+}
+
+@media screen and (max-width: 425px) {
+    button {
+        left: 10px;
+        top: 170%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    button {
+        left: 100%;
+        top: 68%;
+    }
 }
 
 .label1 {
     font-size: 20px;
 }
+
 
 .label2 {
     font-size: 20px;
@@ -236,22 +534,41 @@ button {
     font-size: 20px;
 }
 
+@media only screen and (max-width: 425px) {
+    .emailhere {
+        font-size: 50%;
+    }
+}
+
 .textarea1 {
     position: absolute;
     left: 300px;
     bottom: 60px;
 }
 @media only screen and (max-width: 425px) {
-    h1 {
-     font-size: 1.6em;
+    .textarea1 {
+        left: 10px;
+        top: 150%;
     }
-    p{
-        font-size: 0.7em;
+}
+ 
+.grid-container {
+    background-color: aqua;
+    border: 5px solid black;
+}
+
+@media only screen and (min-width: 768px) {
+    .grid-container {
+      position: absolute;
+      top: 90%;
     }
-    h2{
-        font-size: 1.2em;
-    }
-    h3{
-        font-size: 1em;
-    }
+}
+
+.grid-item {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: aqua;
+}
+body {
+    background-color: blanchedalmond;
 }
