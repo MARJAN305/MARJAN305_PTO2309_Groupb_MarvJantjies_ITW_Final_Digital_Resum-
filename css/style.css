@@ -564,7 +564,7 @@ button {
 
 @media only screen and (min-width: 768px) {
     .grid-container {
-      top: 35%;
+      top: 50%;
       
     }
 }
@@ -585,8 +585,9 @@ body {
     color: white;
     text-align: center;
     z-index: 1;
-    top: 0px;
-    font-size: 40px;
+    font-size: 30px;
+    width: 457px;
+    
   }
 
   .nav-link {
